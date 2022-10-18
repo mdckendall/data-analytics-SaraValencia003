@@ -27,6 +27,7 @@ class Main {
         
                 
       }if(choice.equals("4")){
+        System.out.println("Current Students:");
         try{
       
       FileReader fr = new FileReader("names.txt");

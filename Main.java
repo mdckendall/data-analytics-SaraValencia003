@@ -11,7 +11,7 @@ class Main {
       
   boolean Continue = true;
     while (Continue == true) {
-      System.out.println("Press 1 to learn about salary. \nPress 2 to learn about the job. \nPress 3 to learn about demand. \nPress 4 to view current students. \nPress 5 to quit.");
+      System.out.println("Press 1 to learn about salary.\nPress 2 to learn about the job.\nPress 3 to learn about demand.\nPress 4 to view current students.\nPress 5 to quit.");
   String choice = option.nextLine();
       
       if(choice.equals("1")){
